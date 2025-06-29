@@ -1,0 +1,9 @@
+!Sound
+Id: 5ea72867-a986-4e12-8c9d-fc1aa67a4f73
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/Sounds/engine-loop-1.wav
+SampleRate: 96000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

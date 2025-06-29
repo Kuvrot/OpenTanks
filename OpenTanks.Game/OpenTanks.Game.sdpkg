@@ -1,0 +1,33 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: OpenTanks.Game
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: OpenTanks
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets
+    -   Path: !dir Effects
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir D:/GameEngines/StrideProjects/OpenTanks/Assets
+ResourceFolders:
+    - !dir ../Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 0938ff38-bab1-4717-9d42-259612b22697:CentralChunk
+    - 442451ef-903e-4bb6-8375-1c149e8d8351:EasternChunk
+    - 593ccbef-7818-4ca1-8198-1fe9d7cc6e8d:SouthernChunk
+    - 7ae6d4ae-9b65-4aa8-9a2c-3d5bea4daace:NorthernChunk
+    - dfef9f18-0457-42b8-97e9-afc9019a473f:WesternChunk

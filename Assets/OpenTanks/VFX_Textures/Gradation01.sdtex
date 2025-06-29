@@ -1,0 +1,7 @@
+!Texture
+Id: 5436d4b1-25e2-4914-89b6-498d7c04427c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/Gradation01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

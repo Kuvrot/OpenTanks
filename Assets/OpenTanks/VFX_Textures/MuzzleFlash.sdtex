@@ -1,0 +1,7 @@
+!Texture
+Id: 690fb040-c3d3-4851-b537-c8e88d68d7b7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/MuzzleFlash.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

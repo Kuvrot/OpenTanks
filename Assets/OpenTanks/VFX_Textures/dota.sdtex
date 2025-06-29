@@ -1,0 +1,7 @@
+!Texture
+Id: c9ce1636-9441-4f01-ab64-18396354ea16
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/dota.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

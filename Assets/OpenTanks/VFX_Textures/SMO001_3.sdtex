@@ -1,0 +1,7 @@
+!Texture
+Id: acefa216-1cef-4981-9fce-4f8565e49c4b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/SMO001.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

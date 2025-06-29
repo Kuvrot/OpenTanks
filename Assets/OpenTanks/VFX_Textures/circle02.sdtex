@@ -1,0 +1,7 @@
+!Texture
+Id: 660dec4c-e3b6-489d-9c3b-dfd12e543b3b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/circle02.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

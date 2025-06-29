@@ -1,0 +1,7 @@
+!Texture
+Id: b785424b-b423-4d6a-884d-36f2a52c9348
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/Aura01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

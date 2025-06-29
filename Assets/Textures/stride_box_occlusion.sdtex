@@ -1,0 +1,7 @@
+!Texture
+Id: eee4cf04-ecbf-4360-95ef-2a3e8fac9a42
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/stride_box_occlusion.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

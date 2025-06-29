@@ -1,0 +1,6 @@
+!Texture
+Id: 64650dae-826a-4af3-a4cc-11084ae2d322
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/stride_coin_c_normals.png
+Type: !NormalMapTextureType {}

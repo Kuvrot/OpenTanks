@@ -1,0 +1,8 @@
+!Texture
+Id: bea00a47-7818-47ae-a71d-edfe9fcafbe2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/LensFlare01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

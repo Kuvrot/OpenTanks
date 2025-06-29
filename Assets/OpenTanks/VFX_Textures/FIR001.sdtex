@@ -1,0 +1,7 @@
+!Texture
+Id: 66c5664f-a84a-456f-89be-a2a3c2f78d47
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/FIR001.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

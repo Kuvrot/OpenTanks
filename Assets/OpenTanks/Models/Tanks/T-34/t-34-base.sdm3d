@@ -1,0 +1,15 @@
+!Model
+Id: 310c1ad8-0085-425c-86e0-e90f17aca15d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Resources/OpenTanks/Models/Tanks/T-34/t-34-base.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    83a235c19aec7ee8dee4636a571b5986:
+        Name: Material
+        MaterialInstance:
+            Material: 86c740e9-60bd-4c24-bb5b-4ad7f16dacb2:OpenTanks/Models/Tanks/T-34/Material_2
+Modifiers: {}
+~SourceHashes:
+    d192fb5d69d04d248747c3cdaf7585f7~../../../../../Resources/OpenTanks/Models/Tanks/T-34/t-34-base.obj: 013f5b99f25e51d8f0954e2608ac1572

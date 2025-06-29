@@ -1,0 +1,7 @@
+!Texture
+Id: 2cf2e93b-36be-426e-8d31-f0955c9bd635
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/Hit01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

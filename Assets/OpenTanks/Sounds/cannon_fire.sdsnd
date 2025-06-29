@@ -1,0 +1,9 @@
+!Sound
+Id: b2e1f823-3368-475c-96bd-1b806b5f26ab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/Sounds/cannon_fire.ogg
+SampleRate: 48000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

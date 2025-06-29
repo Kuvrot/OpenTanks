@@ -1,0 +1,7 @@
+!Texture
+Id: 32364bb0-d020-4309-8911-4f811fa0a19c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenTanks/VFX_Textures/LensFlare01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
