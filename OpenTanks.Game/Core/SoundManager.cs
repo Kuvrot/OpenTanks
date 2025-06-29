@@ -1,5 +1,6 @@
 ﻿using Stride.Engine;
 using Stride.Audio;
+using System;
 
 namespace OpenTanks.Core
 {
@@ -19,8 +20,16 @@ namespace OpenTanks.Core
         {
            if (sound != null)
            {
-            var soundInstace = sound.CreateInstance();
-            soundInstace.Play();
+                var soundInstace = sound.CreateInstance();
+                if (new Random().Next(0 , 99) >= 33)
+                {
+                    soundInstace.Pitch = 0.7f;
+                }
+                else if (new Random().Next(0, 99) >= 33 + 33)
+                {
+                    soundInstace.Pitch = 0.5f;
+                }
+                soundInstace.Play();
            }
         }
     }

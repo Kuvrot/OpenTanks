@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Stride.Core.Mathematics;
-using Stride.Input;
 using Stride.Engine;
 using Stride.Physics;
 using OpenTanks.Tank;
-using Stride.Core.Extensions;
-using BulletSharp.SoftBody;
 using OpenTanks.Core;
 using Stride.Particles.Components;
+using Stride.Audio;
 
 namespace OpenTanks.Gameplay
 {
@@ -19,6 +13,7 @@ namespace OpenTanks.Gameplay
     {
         public float lifeTime = 1f; //(in seconds)
         public float speed = 5;
+        public Sound impactSound;
         public ParticleSystemComponent explosionVFX;
         private RigidbodyComponent rigidbodyComponent;
         private bool impacted = false;
@@ -50,6 +45,7 @@ namespace OpenTanks.Gameplay
                         impacted = true;
                         explosionVFX.ParticleSystem.Play();
                         lastTimeImpact = TimeUtils.Instance.GetTime();
+                        GameManager.Instance.Entity.Get<SoundManager>().PlaySound(impactSound);
                         break;
                     }
                 }

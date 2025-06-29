@@ -15,7 +15,7 @@ namespace OpenTanks.Core
         private float clock = 0;
 
         #region singleton
-        private static GameManager Instance;
+        public static GameManager Instance;
         public override void Start()
         {
             Instance = this;

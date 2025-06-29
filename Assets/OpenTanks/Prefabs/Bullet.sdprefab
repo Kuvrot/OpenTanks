@@ -202,6 +202,7 @@ Hierarchy:
                         Id: 3357aed6-5772-43ef-9bfc-0ed108ff16be
                         lifeTime: 1.0
                         speed: 25.0
+                        impactSound: 3978c508-a8e3-4626-8631-9b86ca426c97:Audio/crate_breaking
                         explosionVFX: ref!! 0f8100f3-a703-424a-b5d6-6ce800c625ce
         -   Entity:
                 Id: d0dce8e4-f67e-4648-b8e5-da4c17667b45

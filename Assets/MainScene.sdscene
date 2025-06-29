@@ -597,6 +597,7 @@ Hierarchy:
                         Id: 867c93bd-70c2-450d-bc08-faabf51e31ca
                         lifeTime: 1.0
                         speed: 25.0
+                        impactSound: 3978c508-a8e3-4626-8631-9b86ca426c97:Audio/crate_breaking
                         explosionVFX: ref!! f9b6ba3e-7f14-4271-a250-da480893a6b3
             Base:
                 BasePartAsset: 158a5102-79ce-4497-97d7-0df8cc665ae9:OpenTanks/Prefabs/Bullet
