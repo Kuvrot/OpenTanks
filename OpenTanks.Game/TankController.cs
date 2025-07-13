@@ -24,6 +24,7 @@ namespace OpenTanks.Tank
         public TransformComponent cannonPosition;
         public ParticleSystemComponent MuzzleFlash;
         public float reloadTime = 2.5f;
+        public TransformComponent crosshair;
 
         public float health = 100;
         public Sound engineSound;
@@ -95,6 +96,8 @@ namespace OpenTanks.Tank
             Vector3 direction = Vector3.Normalize(targetPos - headPos);
             float yaw = MathF.Atan2(direction.X, direction.Z);
             tankHead.Rotation = Quaternion.RotationYawPitchRoll(yaw, 0f, 0f);
+
+            crosshair.Position = hitResult.Point + new Vector3 (0f , 0.25f , 0f);
         }
 
         private void ControllerSetup()

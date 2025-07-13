@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 4b15028d-1d81-44bc-b3f7-8bc2157ca636
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    88faf0015a0a597ccab2c59546f94276:
+        Source: !file ../../../Resources/OpenTanks/Sprites/target_a.png
+        Name: target_a
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 32}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

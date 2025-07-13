@@ -19,6 +19,15 @@ AssetFolders:
     -   Path: !dir ../Assets
     -   Path: !dir ../Assets
     -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
+    -   Path: !dir ../Assets
     -   Path: !dir D:/GameEngines/StrideProjects/OpenTanks/Assets
 ResourceFolders:
     - !dir ../Resources

@@ -154,9 +154,9 @@ Hierarchy:
         - ref!! 0ddffa94-dc32-47b1-9642-fc445f7db9c3
         - ref!! 946367f6-86dc-44c0-b54f-9361fbfedb0e
         - ref!! 27feb376-13d1-4ef3-b931-b9d96cf81ba2
-        - ref!! a7564c4c-7704-4354-a353-9207a2232954
         - ref!! 0e071c92-f527-4632-ac69-fdcb132349b4
         - ref!! 71b89933-ada1-42fe-91b9-924614701f03
+        - ref!! 0d4585f1-3364-4b0b-aea6-12f551be8784
     Parts:
         -   Entity:
                 Id: 0012425a-8167-4220-b4f9-5a50ab7c9538
@@ -512,6 +512,23 @@ Hierarchy:
                 BasePartAsset: 128cbd8b-e7b5-43bb-9c69-5b3c2c97bf5d:BlocksPrefabs/Box3x1x1
                 BasePartId: b86036f4-0ce3-4794-9947-a61378390d41
                 InstanceId: 5ebbf2f8-7d30-4fd8-a0ca-3c0600fcd367
+        -   Entity:
+                Id: 0d4585f1-3364-4b0b-aea6-12f551be8784
+                Name: Crosshair
+                Components:
+                    51f76f5825a89c10ea31b07b0b9e7ccf: !TransformComponent
+                        Id: 9bde978f-6a65-4418-8df2-976ab1b42aeb
+                        Position: {X: 15.763144, Y: 2.2843666, Z: 5.1165257}
+                        Rotation: {X: -0.70710677, Y: 0.0, Z: 0.0, W: 0.70710677}
+                        Scale: {X: 10.0, Y: 10.0, Z: 10.0}
+                        Children: {}
+                    1fc1756e30c50d1dd9088a6463954b6b: !SpriteComponent
+                        Id: 67a13e65-5d03-4a22-995e-bd6093a53dc1
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 4b15028d-1d81-44bc-b3f7-8bc2157ca636:OpenTanks/Sprites/SpriteSheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Intensity: 7.0
+                        Sampler: PointClamp
         -   Folder: Coins
             Entity:
                 Id: 0ddffa94-dc32-47b1-9642-fc445f7db9c3
@@ -1353,6 +1370,7 @@ Hierarchy:
                         Children:
                             cd2ff5b35eb627407db994af66eb133c: ref!! f2432e10-4557-4cc6-b89d-2dca9dac493d
                             20f45e213f37c123379cec5447689ac2: ref!! 2e3679b0-68cf-40e3-bb66-2b7b0e943944
+                            8a72e2db28de15e65c608ea9b333d3d2: ref!! b2bdd439-7802-412a-869f-2a6d53da4edf
                     adce951fa2ea8bd74762e0e42f50eb25: !OpenTanks.Tank.TankController,OpenTanks.Game
                         Id: 4e324c8a-14ca-448b-96ee-ff32a39f3ff0
                         player: 1
@@ -1362,6 +1380,7 @@ Hierarchy:
                         cannonPosition: ref!! bd5b3762-42cc-4d2f-ab4a-de802833b089
                         MuzzleFlash: ref!! a20b5bff-f610-4eb7-8977-08f8f81541cf
                         reloadTime: 2.5
+                        crosshair: ref!! 9bde978f-6a65-4418-8df2-976ab1b42aeb
                         health: 100.0
                         engineSound: 5ea72867-a986-4e12-8c9d-fc1aa67a4f73:OpenTanks/Sounds/engine-loop-1
                         shootSound: b2e1f823-3368-475c-96bd-1b806b5f26ab:OpenTanks/Sounds/cannon_fire
@@ -1939,7 +1958,7 @@ Hierarchy:
                 Components:
                     13f9784b2a9842bd68780ad1420db648: !TransformComponent
                         Id: bd5b3762-42cc-4d2f-ab4a-de802833b089
-                        Position: {X: -0.00019512326, Y: 0.64844555, Z: 2.856864}
+                        Position: {X: -0.00019512326, Y: 0.64844555, Z: 3.4366593}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
